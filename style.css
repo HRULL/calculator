@@ -1,0 +1,54 @@
+button {
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    margin: 5px;
+    color: white;
+    border: 2px solid white;
+    background: darkblue;
+    border-radius: 20px;
+    font-weight: bold;
+    
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    background: rgb(125, 134, 239);
+    border-radius: 10px;
+    border: 3px solid darkblue;
+    
+}
+
+input[type=text], select, textarea {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+    color: white;
+    background:darkblue;
+    border-radius: 20px;
+    resize: vertical;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.display {
+    background: rgb(125, 134, 239);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border: 3px solid darkblue;
+}
+
+.culcolator {
+    background-color: rgb(1, 1, 51);
+    margin: 550px;
+    border-radius: 20px;
+    border: 2px solid darkblue;
+    padding: 10px;
+    text-align: center;
+}
+
+
